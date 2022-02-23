@@ -8,15 +8,22 @@
   </head>
   <body>
     <h1>Rock Paper Scissor</h1>
+    <h2>Win 5 games to be the Winner</h2>
     <h2>Player Choice: <span id="player-choice"></span></h2>
     <h2>Computer Choice: <span id="computer-choice"></span></h2>
     <h2>Result: <span id="result"></span></h2>
 
-    <div class="player-input">
+    <div id="player-input">
       <button id="ROCK">ROCK</button>
       <button id="PAPER">PAPER</button>
       <button id="SCISSOR">SCISSOR</button>
     </div>
+    <h3>Computer Score: <span id="computer-score-display"></span></h3>
+    <h3>Player Score: <span id="player-score-display"></span></h3>
+
+    <h2><span id="winner"></span></h2>
+
+    <button id="refresh" style="display: none">Refresh</button>
     <script src="script.js"></script>
   </body>
 </html>
